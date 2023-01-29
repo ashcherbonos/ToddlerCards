@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#d8c9fe">
+
+    <LinearLayout
+        style="@style/LinearLayout"
+        android:gravity="top|center_horizontal" >
+
+        <TextView
+            android:id="@+id/mainWindowStatusText"
+            style="@style/MainWindowStatusText"
+            android:fontFamily="Century Gothic"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <dagidagi.toddlercards.animals.full.HorizontalScrollViewNoFling
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:id="@+id/linearLayoutCentral"
+            style="@style/LinearLayoutCentral" >
+
+            <ImageView
+                style="@style/SpacingImage"
+                android:src="@drawable/transparent" />
+
+            <ImageView
+                android:id="@+id/imageViewSetPets"
+                style="@style/SetImage"
+                android:onClick="onClickCardSet"
+                android:src="@drawable/set_pets" />
+
+            <ImageView
+                style="@style/SpacingImage"
+                android:src="@drawable/spacing" />
+
+            <ImageView
+                android:id="@+id/imageViewSetFarm"
+                style="@style/SetImage"
+                android:onClick="onClickCardSet"
+                android:src="@drawable/set_farm" />
+
+            <ImageView
+                style="@style/SpacingImage"
+                android:src="@drawable/spacing" />
+
+            <ImageView
+                android:id="@+id/imageViewSetForest"
+                style="@style/SetImage"
+                android:onClick="onClickCardSet"
+                android:src="@drawable/set_forest" />
+			
+			<ImageView
+                style="@style/SpacingImage"
+                android:src="@drawable/spacing" />
+
+            <ImageView
+                android:id="@+id/imageViewSetAfrica"
+                style="@style/SetImage"
+                android:onClick="onClickCardSet"
+                android:src="@drawable/set_africa" />
+            
+            <ImageView
+                style="@style/SpacingImage"
+                android:src="@drawable/spacing" />
+
+            <ImageView
+                android:id="@+id/imageViewSetAsia"
+                style="@style/SetImage"
+                android:onClick="onClickCardSet"
+                android:src="@drawable/set_asia" />
+            
+            <ImageView
+                style="@style/SpacingImage"
+                android:src="@drawable/spacing" />
+
+            <ImageView
+                android:id="@+id/imageViewSetAustralia"
+                style="@style/SetImage"
+                android:onClick="onClickCardSet"
+                android:src="@drawable/set_australia" />
+            
+            <ImageView
+                style="@style/SpacingImage"
+                android:src="@drawable/spacing" />
+
+            <ImageView
+                android:id="@+id/imageViewSetPolar"
+                style="@style/SetImage"
+                android:onClick="onClickCardSet"
+                android:src="@drawable/set_polar" />
+            
+            <ImageView
+                style="@style/SpacingImage"
+                android:src="@drawable/spacing" />
+            
+            <ImageView
+                android:id="@+id/imageViewSetNext"
+                style="@style/SetImage"
+                android:onClick="onClickCardSet"
+                android:src="@drawable/set_next" />
+
+            <ImageView
+                style="@style/SpacingImage"
+                android:src="@drawable/spacing" />
+
+           
+        </LinearLayout>
+    </dagidagi.toddlercards.animals.full.HorizontalScrollViewNoFling>
+
+    <LinearLayout
+        style="@style/LinearLayout"
+        android:layout_gravity="bottom"
+        android:layout_margin="10dp"
+        android:gravity="bottom|center_horizontal" >
+
+        <ImageView
+            android:id="@+id/iconRun"
+            style="@style/SetingsIcon"
+            android:src="@drawable/run" 
+            android:onClick="onClickCardSet"/>
+
+        <ImageView
+            android:id="@+id/iconSettings"
+            style="@style/SetingsIcon"
+            android:src="@drawable/settings" 
+            android:onClick="onClickCardSet"/>
+
+        <ImageView
+            android:id="@+id/iconAbout"
+            style="@style/SetingsIcon"
+            android:src="@drawable/about" 
+            android:onClick="onClickCardSet"/>
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="0dp"
+    android:orientation="vertical"
+    android:padding="0px" >
+
+    <CheckBox
+        android:id="@+id/delayScrolling"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:onClick="onClick"
+        android:text="Block scrolling when play sound"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:id="@+id/blockScreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:onClick="onClick"
+        android:text="Block screen timeout"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:id="@+id/doubleClickToExit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:onClick="onClick"
+        android:text="Double click to settings and exit"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:id="@+id/shuffleCards"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:onClick="onClick"
+        android:text="Shuffle Cards"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_margin="0dp"
+        android:orientation="horizontal"
+        android:padding="0px" >
+        
+        
+
+        <Button
+            android:id="@+id/btnlanguage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:text="@string/language"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:text="Main screen"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</LinearLayout>
