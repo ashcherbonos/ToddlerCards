@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="0dp"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:padding="0px" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:scaleType="centerInside"
+        android:src="@drawable/dagi_logo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="0px" >
+
+        <TextView
+            android:id="@+id/textViewDagiDagi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="left"
+            android:onClick="onClick"
+            android:text="DAGIDAGI"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="32sp" />
+
+        <TextView
+            android:id="@+id/textViewMoreAps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="left"
+            android:onClick="onClick"
+            android:text="MORE APS"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="32sp" />
+
+        <TextView
+            android:id="@+id/textViewRateUs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="left"
+            android:onClick="onClick"
+            android:text="RATE US"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="32sp" />
+
+        <TextView
+            android:id="@+id/textViewMainScreen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32sp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="left"
+            android:onClick="onClick"
+            android:text="MAIN SCREEN"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="32sp" />
+    </LinearLayout>
+
+</LinearLayout>

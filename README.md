@@ -1,1 +1,3 @@
 # ToddlerCards
+
+Just simple "animal cards" game for toddlers. Player can swipe through the cards with animals and learn they sounds. Then player can pass the test. Written by me many years ago. I delete all images and audio - not sure about licence...

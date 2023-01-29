@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/winLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="0px"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:clickable="true"
+    android:onClick="onClick"
+    android:padding="0px"
+    android:background="@drawable/win_screen_bg">
+
+
+     
+    
+       <ImageView
+        android:id="@+id/imageFireworks0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="0px"
+        android:src="@drawable/fireworks0" 
+        android:scaleType="center"/>
+     
+    <ImageView
+        android:id="@+id/imageFireworks1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="0px"
+        android:src="@drawable/fireworks1" 
+        android:scaleType="center"/>
+
+    <ImageView
+        android:id="@+id/imageFireworks2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="0px"
+        android:src="@drawable/fireworks2" 
+        android:scaleType="center"/>
+    
+    <ImageView
+        android:id="@+id/imageFireworks3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="0px"
+        android:src="@drawable/fireworks3" 
+        android:scaleType="center"/>
+    
+    <ImageView
+        android:id="@+id/imageFireworks4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="0px"
+        android:src="@drawable/fireworks4" 
+        android:scaleType="center"/>
+    <ImageView
+        android:id="@+id/imageFireworks5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="0px"
+        android:src="@drawable/fireworks5" 
+        android:scaleType="center"/>
+    <ImageView
+        android:id="@+id/imageFireworks6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="0px"
+        android:src="@drawable/fireworks6" 
+        android:scaleType="center"/>
+    <ImageView
+        android:id="@+id/imageFireworks7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="0px"
+        android:src="@drawable/fireworks7" 
+        android:scaleType="center"/>
+    <ImageView
+        android:id="@+id/imageFireworks8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="0px"
+        android:src="@drawable/fireworks8" 
+        android:scaleType="center"/>
+    <ImageView
+        android:id="@+id/imageFireworks9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="0px"
+        android:src="@drawable/fireworks9" 
+        android:scaleType="center"/>
+    
+    
+     <ImageView
+        android:id="@+id/imageRosseteLeft"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:padding="0px"
+        android:src="@drawable/rosette"/>
+    
+    <ImageView
+        android:id="@+id/imageRosseteRight"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:padding="0px"
+        android:src="@drawable/rosette"/>
+    
+    
+        <ImageView
+        android:id="@+id/imageMedal"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:padding="0px"
+        android:src="@drawable/medal"/>
+
+    
+</FrameLayout>

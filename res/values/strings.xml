@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Animal Sounds</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_test">Test</string>
+    <string name="africa">AFRICA ANIMALS</string>
+    <string name="america">AMERICA ANIMALS</string>
+    <string name="asia">ASIA ANIMALS</string>
+    <string name="australia">AUSTRALIA ANIMALS</string>
+    <string name="birds">BIRDS</string>
+    <string name="bugs">BUGS</string>
+    <string name="farm">FARM ANIMALS</string>
+    <string name="forest">FOREST ANIMALS</string>
+    <string name="pets">PETS</string>
+    <string name="polar">POLAR ANIMALS</string>
+    <string name="reptilies">REPTILIES</string>
+    <string name="sea">SEA ANIMALS</string>
+    <string name="icon_run">SLIDESHOW</string>
+    <string name="icon_settings">SETTINGS\nhold for 4 seconds</string>
+    <string name="icon_about">ABOUT</string>
+    <string name="language">English Language</string>
+    <string name="set_next">MORE CARDS IN DEVELOPMENT</string>
+    
+    <string name="pets0">DOG</string>
+    <string name="pets1">CAT</string>
+    <string name="pets2">HAMSTER</string>
+    <string name="pets3">PARROT</string>
+    <string name="pets4">RABBIT</string>
+    <string name="pets5">DUCK</string>
+    <string name="pets6">GUINEA PIG</string>
+    <string name="pets7">FISH</string>
+    <string name="pets8">MOUSE</string>
+    <string name="pets9">TURTLE</string>
+    <string name="pets10">POLECAT</string>
+    <string name="pets11">CHAMELEON</string>
+        
+    <string name="farm0">PIG</string>
+    <string name="farm1">GOAT</string>
+    <string name="farm2">GOOSE</string>
+    <string name="farm3">COW</string>
+    <string name="farm4">HEN</string>
+    <string name="farm5">ROOSTER</string>
+    <string name="farm6">HORSE</string>
+    <string name="farm7">RABBIT</string>
+    <string name="farm8">DUCK</string>
+    <string name="farm9">SHEEP</string>
+    <string name="farm10">TURKEY</string>
+    <string name="farm11">DONKEY</string>
+    
+    <string name="forest0">SQUIRREL</string>
+    <string name="forest1">HARE</string>
+    <string name="forest2">FOX</string>
+    <string name="forest3">HEDGEHOG</string>
+    <string name="forest4">WOLF</string>
+    <string name="forest5">BADGER</string>
+    <string name="forest6">DEER</string>
+    <string name="forest7">OTTER</string>
+    <string name="forest8">BEAR</string>
+    <string name="forest9">LYNX</string>
+    <string name="forest10">RACCOON</string>
+    <string name="forest11">MOOSE</string>
+    <string name="forest12">BEAVER</string>
+    <string name="forest13">BOAR</string>
+    <string name="forest14">BAT</string>
+    <string name="forest15">POLECAT</string>
+    <string name="forest16">MOUSE</string>
+    
+    <string name="africa0">ELEPHANT</string>
+    <string name="africa1">ANTELOPE</string>
+    <string name="africa2">LION</string>
+    <string name="africa3">CHIMPANZEE</string>
+    <string name="africa4">RHINO</string>
+    <string name="africa5">GIRAFFE</string>
+    <string name="africa6">JACKAL</string>
+    <string name="africa7">BUFFALO</string>
+    <string name="africa8">CHEETAH</string>
+    <string name="africa9">LEMUR</string>
+    <string name="africa10">OSTRICH</string>
+    <string name="africa11">GORILLA</string>
+    <string name="africa12">HIPPO</string>
+    <string name="africa13">MEERKAT</string>
+    <string name="africa14">HYENA</string>
+    <string name="africa15">ZEBRA</string>
+
+
+
+    <string name="asia0">PANDA</string>
+    <string name="asia1">CAMEL</string>
+    <string name="asia2">CRANE</string>
+    <string name="asia3">TIGER</string>
+    <string name="asia4">MONKEY</string>
+    <string name="asia5">COBRA</string>
+    <string name="asia6">PEACOCK</string>
+    <string name="asia7">PORCUPINE</string>
+    <string name="asia8">TARSIER</string>
+    <string name="asia9">LEOPARD</string>
+    <string name="asia10">YAK</string>
+
+
+    <string name="australia0">KANGAROO</string>
+    <string name="australia1">KOALA</string>
+    <string name="australia2">ECHIDNA</string>
+    <string name="australia3">DINGO</string>
+    <string name="australia4">EMU</string>
+    <string name="australia5">PLATYPUS</string>
+    <string name="australia6">TASMANIAN DEVIL</string>
+    <string name="australia7">KIWI</string>
+    <string name="australia8">WOMBAT</string>
+    <string name="australia9">COCKATOO</string>
+    <string name="australia10">THORNY DRAGON</string>
+    
+    <string name="polar0">PENGUIN</string>
+    <string name="polar1">POLAR BEAR</string>
+    <string name="polar2">REINDEER</string>
+    <string name="polar3">SNOWY OWL</string>
+    <string name="polar4">ARCTIC WOLF</string>
+    <string name="polar5">SEAL</string>
+    <string name="polar6">ARCTIC FOX</string>
+    <string name="polar7">LEMMING</string>
+    <string name="polar8">NARWHAL</string>
+    <string name="polar9">ARCTIC TERN</string>
+    <string name="polar10">WALRUS</string>
+    
+    <string name="copyright">If you believe any of your images has been posted without your permission, please contact us and we will remove it.</string>
+    
+    
+</resources>

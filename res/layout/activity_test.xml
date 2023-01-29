@@ -1,0 +1,47 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d8c9fe" >
+
+    <ImageView
+        android:id="@+id/testStartBtn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:padding="50dp"
+        android:src="@drawable/question" />
+
+    <ImageView
+        android:id="@+id/imageTest0"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="top|left"
+        android:onClick="onClickTest"
+        android:scaleType="centerCrop" />
+
+    <ImageView
+        android:id="@+id/imageTest1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="top|right"
+        android:onClick="onClickTest"
+        android:scaleType="centerCrop" />
+
+    <ImageView
+        android:id="@+id/imageTest2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="bottom|left"
+        android:onClick="onClickTest"
+        android:scaleType="centerCrop" />
+
+    <ImageView
+        android:id="@+id/imageTest3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="bottom|right"
+        android:onClick="onClickTest"
+        android:scaleType="centerCrop" />
+
+</FrameLayout>

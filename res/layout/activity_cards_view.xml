@@ -1,0 +1,64 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="0dp"
+    android:background="#000000"
+    android:padding="0px" >
+
+  
+
+        <dagidagi.toddlercards.animals.full.ViewPagerWithStop
+            android:id="@+id/pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+    <ImageView
+        android:id="@+id/imageQuickTest"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="top|right"
+        android:layout_marginRight="5dp"
+        android:alpha="0.5"
+        android:onClick="onClick"
+        android:src="@drawable/question" />
+
+    <ImageView
+        android:id="@+id/imageNextCard"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center|right"
+        android:layout_margin="5dp"
+        android:alpha="0.5"
+        android:onClick="onClick"
+        android:src="@drawable/arrow_next" />
+
+    <ImageView
+        android:id="@+id/imagePrevCard"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center|left"
+        android:layout_margin="5dp"
+        android:alpha="0.5"
+        android:onClick="onClick"
+        android:src="@drawable/arrow_prev" />
+
+    <TextView
+        android:id="@+id/copyright"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:alpha="0.5"
+        android:clickable="true"
+        android:gravity="bottom|left"
+        android:onClick="onClick"
+        android:text="©"
+        android:textColor="#ffffff"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+</FrameLayout>
